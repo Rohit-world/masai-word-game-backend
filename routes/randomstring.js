@@ -22,13 +22,13 @@ Randomstring.get("/",(req,res)=>{
 var generatedString;
 
 if(req.query.diff=="medium"){
-    generatedString=generateString(10)
+    generatedString=generateString(6)
 }else if(req.query.diff=="low"){
-    generatedString=generateString(8)
+    generatedString=generateString(4)
 }else if(req.query.diff=="high"){
-    generatedString=generateString(15)
+    generatedString=generateString(7)
 }else{
-    generatedString=generateString(9)
+    generatedString=generateString(5)
 }
 
 
