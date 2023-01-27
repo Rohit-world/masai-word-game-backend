@@ -5,5 +5,5 @@ const UserScema = mongoose.Schema({
  score:String,
  
 });
-const UserModel = mongoose.model("jobs", UserScema);
+const UserModel = mongoose.model("users", UserScema);
 module.exports = { UserModel};
